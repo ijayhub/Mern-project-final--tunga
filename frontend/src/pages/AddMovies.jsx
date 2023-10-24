@@ -30,7 +30,7 @@ const AddMovies = () => {
 			plot,
 			notes
 		};
-		axios.post('http://localhost:8003/movies', data)
+		axios.post('http://localhost:443/movies', data)
 			.then(() => {
 				enqueueSnackbar('Movie added', {variant:'success'})
 			navigate('/list')
