@@ -16,7 +16,7 @@ app.use(cors());
 
 // basic route application
 app.get('/', (req, res) => {
-	res.send('welcome');
+	res.send('	Welcome to movie app');
 });
 
 // router to the db
