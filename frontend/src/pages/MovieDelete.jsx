@@ -11,7 +11,7 @@ const MovieDelete = () => {
 
 	const handleDeleteMovie = () => {
 		axios
-			.delete(`http://localhost:80/movies/${id}`)
+			.delete(`http://localhost:8003/movies/${id}`)
       .then(() => {
         enqueueSnackbar('Movie deleted successfully',{variant:'success'})
 				navigate('/list');
