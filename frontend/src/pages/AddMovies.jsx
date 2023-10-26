@@ -135,7 +135,6 @@ const AddMovies = () => {
 					</button>
 				</div>
 			</form>
-
 			<div className='top-container'>
 				<a href='#'>
 					<img src={top} alt='top' className='top-arrow' />
