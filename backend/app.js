@@ -14,10 +14,7 @@ app.use(express.json());
 // middleware for handling cors(request between the backend and frontend)
 app.use(cors());
 
-// basic route application
-app.get('/', (req, res) => {
-	res.send('	Welcome to movie app');
-});
+
 
 // router to the db
 app.use('/movies', movieRoutes);
