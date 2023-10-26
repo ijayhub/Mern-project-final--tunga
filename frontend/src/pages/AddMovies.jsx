@@ -1,14 +1,14 @@
-import { useState } from 'react';
 import top from '../img/top.png'
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
+import { useState } from 'react';
 import { enqueueSnackbar } from 'notistack';
-
 
 
 const AddMovies = () => {
 	const [title, setTitle] = useState('')
 	const [release, setRelease] = useState('');
+
 	const [rating, setRating] = useState('');
 	const [genre, setGenre] = useState('');
 	const [plot, setPlot] = useState('');
@@ -30,15 +30,16 @@ const AddMovies = () => {
 			plot,
 			notes
 		};
-		axios.post('http://localhost:443/movies', data)
+		axios
+			.post('https://backend-crud-4j9x.onrender.com/movies', data)
 			.then(() => {
-				enqueueSnackbar('Movie added', {variant:'success'})
-			navigate('/list')
+				enqueueSnackbar('Movie added', { variant: 'success' });
+				navigate('/list');
 			})
 			.catch((err) => {
-				enqueueSnackbar('error', { variant: 'error' })
-				setError(err.message)
-			})
+				enqueueSnackbar('error', { variant: 'error' });
+				setError(err.message);
+			});
 	}
   return (
 		<>

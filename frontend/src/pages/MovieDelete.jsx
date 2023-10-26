@@ -11,14 +11,14 @@ const MovieDelete = () => {
 
 	const handleDeleteMovie = () => {
 		axios
-			.delete(`http://localhost:443/movies/${id}`)
-      .then(() => {
-        enqueueSnackbar('Movie deleted successfully',{variant:'success'})
+			.delete(`https://backend-crud-4j9x.onrender.com/movies/${id}`)
+			.then(() => {
+				enqueueSnackbar('Movie deleted successfully', { variant: 'success' });
 				navigate('/list');
 			})
-      .catch((err) => {
-        enqueueSnackbar('Error deleting movie', {variant:'error'})
-        setError(err)
+			.catch((err) => {
+				enqueueSnackbar('Error deleting movie', { variant: 'error' });
+				setError(err);
 			});
   };
   const handleCancelMovie = () => {

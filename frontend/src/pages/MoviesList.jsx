@@ -8,7 +8,7 @@ const MoviesList = () => {
 	const [movieLists, setMovieLists] = useState([]);
 
 	useEffect(() => {
-		fetch('http://localhost:443/movies')
+		fetch('https://backend-crud-4j9x.onrender.com/movies')
 			.then((res) => {
 				return res.json();
 			})
@@ -16,8 +16,7 @@ const MoviesList = () => {
 				setMovieLists(data.data);
 			})
 			.catch((err) => {
-        setMovieLists(err);
-        
+				setMovieLists(err);
 			});
 	}, []);
 
