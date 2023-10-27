@@ -11,7 +11,7 @@ const MovieDelete = () => {
 
 	const handleDeleteMovie = () => {
 		axios
-			.delete(`https://backend-crud-4j9x.onrender.com/movies/${id}`)
+			.delete(`http://backend-crud-4j9x.onrender.com/movies/${id}`)
 			.then(() => {
 				enqueueSnackbar('Movie deleted successfully', { variant: 'success' });
 				navigate('/list');

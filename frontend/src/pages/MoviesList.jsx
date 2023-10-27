@@ -8,7 +8,7 @@ const MoviesList = () => {
 	const [movieLists, setMovieLists] = useState([]);
 
 	useEffect(() => {
-		fetch('https://backend-crud-4j9x.onrender.com/movies')
+		fetch('http://backend-crud-4j9x.onrender.com/movies')
 			.then((res) => {
 				return res.json();
 			})
