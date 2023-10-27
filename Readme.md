@@ -46,9 +46,9 @@ Here is how to use this application:
 
 ## Overview
 
-* [Repo Codes]()
+* [Repo Codes](https://github.com/ijayhub/Mern-project-final--tunga)
 
-* [Hosted Link]()
+* [Hosted Link](https://frontend-crud-orcin.vercel.app/)
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
