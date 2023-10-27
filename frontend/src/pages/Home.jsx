@@ -69,6 +69,7 @@ const Home = () => {
 					{error}
 				</div>
 			)}
+			{/* The arrow takes you back to the top */}
 			<div className='top-container'>
 				<a href='#'>
 					<img src={top} alt='top' className='top-arrow' />

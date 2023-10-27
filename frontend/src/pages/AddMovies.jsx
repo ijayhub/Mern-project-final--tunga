@@ -74,7 +74,7 @@ const AddMovies = () => {
 				</div>
 				<div className='create-div'>
 					<label htmlFor='rating' className='create-title'>
-						Rate the Movie
+						Your Personal Rating of the Movie
 					</label>
 					<select
 						name='rating'
@@ -136,6 +136,7 @@ const AddMovies = () => {
 					</button>
 				</div>
 			</form>
+			{/* The arrow takes you back to the top */}
 			<div className='top-container'>
 				<a href='#'>
 					<img src={top} alt='top' className='top-arrow' />
