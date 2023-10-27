@@ -25,9 +25,9 @@
 
 
 ## About The Project
-Find your favorite movies effortlessly with our user-friendly application. We've curated a wide selection across genres and eras. Whether it's a thrilling mystery or a heartwarming romance, we've got you covered.
+Find your favourite movies effortlessly with our user-friendly application. We've curated a wide selection across genres and eras. Whether it's a thrilling mystery or a heartwarming romance, we've got you covered.
 
-** Key features of this project include:**
+**Key features of this project include:**
 ```
 
 Page Navigation - The ability to navigate between pages seamlessly.
