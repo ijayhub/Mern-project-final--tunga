@@ -8,8 +8,14 @@ const Template = ({ movies }) => {
 			{Array.isArray(movies) &&
 				movies.map((movie) => (
 					<div key={movie.imdbID} className='template-container'>
-						<img src={movie.Poster} alt={movie.Title} className='img' />
-						<h4 className='template-title1 font-bold'>{movie.Title}</h4>
+						<div className='mb-6'>
+							<img
+								src={movie.Poster}
+								alt={movie.Title}
+								className='h-[200px] w-full object-cover'
+							/>
+						</div>
+						<h4 className='template-title1 font-bold text-center'>{movie.Title}</h4>
 						<a href={`/movies/details/${movie.imdbID}`}>
 							<div className='btn-container'>
 								<Button className='btn-template' value='Click for movie info' />
