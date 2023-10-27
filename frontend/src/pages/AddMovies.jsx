@@ -31,7 +31,7 @@ const AddMovies = () => {
 			notes
 		};
 		axios
-			.post('http://backend-crud-4j9x.onrender.com/movies', data)
+			.post('https://backend-crud-4j9x.onrender.com/movies', data)
 			.then(() => {
 				enqueueSnackbar('Movie added', { variant: 'success' });
 				navigate('/list');
