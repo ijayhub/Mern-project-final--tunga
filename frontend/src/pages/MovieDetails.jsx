@@ -7,7 +7,7 @@ const MovieDetails = () => {
 	const { imdbID } = useParams();
 
 	useEffect(() => {
-		fetch(`http://www.omdbapi.com/?i=${imdbID}&apikey=${import.meta.env.VITE_SOME_VALUE}`)
+		fetch(`https://www.omdbapi.com/?i=${imdbID}&apikey=${import.meta.env.VITE_SOME_VALUE}`)
 			.then((res) => res.json())
 			.then((data) => {
 				console.log(data);

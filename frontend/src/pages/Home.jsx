@@ -14,7 +14,7 @@ const Home = () => {
   useEffect(() => {
     setTimeout(() => {
       fetch(
-        `http://www.omdbapi.com/?s=${term}&apikey=${
+        `https://www.omdbapi.com/?s=${term}&apikey=${
           import.meta.env.VITE_SOME_VALUE
         }`
       )
