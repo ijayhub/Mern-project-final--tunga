@@ -25,7 +25,7 @@
 
 
 ## About The Project
-Find your favorite movies effortlessly with our user-friendly application. We've curated a wide selection across genres and eras. Whether it's a thrilling mystery or a heartwarming romance, we've got you covered.
+Find your favourite movies effortlessly with our user-friendly application. We've curated a wide selection across genres and eras. Whether it's a thrilling mystery or a heartwarming romance, we've got you covered.
 
 **Key features of this project include:**
 ```
@@ -46,9 +46,9 @@ Here is how to use this application:
 
 ## Overview
 
-* [Repo Codes]()
+* [Repo Codes](https://github.com/ijayhub/Mern-project-final--tunga)
 
-* [Hosted Link]()
+* [Hosted Link](https://frontend-crud-orcin.vercel.app/)
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
