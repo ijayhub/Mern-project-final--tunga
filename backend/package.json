@@ -1,7 +1,8 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "A project to find movies built using omdb API and monogoDb",
+  "description": "A project to find movies built using omdb API and MongoDB",
+  "keywords": [ "omdb API", "MongoDB", "React", "tailwind CSS" ],
   "type": "module",
   "main": "app.js",
   "scripts": {
