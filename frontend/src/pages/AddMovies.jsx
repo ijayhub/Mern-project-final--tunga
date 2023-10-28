@@ -8,7 +8,6 @@ import { enqueueSnackbar } from 'notistack';
 const AddMovies = () => {
 	const [title, setTitle] = useState('')
 	const [release, setRelease] = useState('');
-
 	const [rating, setRating] = useState('');
 	const [genre, setGenre] = useState('');
 	const [plot, setPlot] = useState('');
@@ -42,7 +41,7 @@ const AddMovies = () => {
 			});
 	}
   return (
-		<>
+		<div className='bg-sky-100 pt-9'>
 			<form onSubmit={handleSubmit} className='create-container'>
 				<h2 className='RRform'>Rating and Review Form</h2>
 				<div className='create-div'>
@@ -87,6 +86,11 @@ const AddMovies = () => {
 						<option value='3'>3</option>
 						<option value='4'>4</option>
 						<option value='5'>5</option>
+						<option value='6'>6</option>
+						<option value='7'>7</option>
+						<option value='8'>8</option>
+						<option value='9'>9</option>
+						<option value='10'>10</option>
 					</select>
 					<label htmlFor='genre' className='create-title'>
 						Genre of the Movie
@@ -102,6 +106,7 @@ const AddMovies = () => {
 						<option value='Horror'>Horror</option>
 						<option value='Comedy'>Comedy</option>
 						<option value='Action'>Action</option>
+						<option value='Drama'>Drama</option>
 					</select>
 				</div>
 				<div className='create-div'>
@@ -148,7 +153,7 @@ const AddMovies = () => {
 					</div>
 				)}
 			</div>
-		</>
+		</div>
 	);
 }
 

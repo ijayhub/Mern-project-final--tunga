@@ -8,7 +8,7 @@ const Nav = () => {
 		setOpen(!open)
 	}
 	return (
-		<header className='bg-sky-200 shadow-2xl'>
+		<header className='header'>
 			<div className='head-container'>
 				<Link to='/' className='link'>
 					<h1 className='head-title'>CR-movies</h1>
