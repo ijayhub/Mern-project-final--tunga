@@ -16,7 +16,7 @@ const App = () => {
 			<Nav />
 			<Suspense
 				fallback={
-					<h1 className='text-2xl lg:text-4xl font-mono font-bold text-center mt-8'>
+					<h1 className='text-2xl lg:text-4xl font-mono font-bold text-center mt-9'>
 						Loading...
 					</h1>
 				}>
