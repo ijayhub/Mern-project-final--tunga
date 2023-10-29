@@ -3,6 +3,7 @@ import Nav from "./components/Nav"
 import {Routes, Route} from "react-router-dom"
 
 
+
 // To improve performance of the application
 const Home = lazy(() => import ("./pages/Home"))
 const MovieDetails = lazy(() =>import("./pages/MovieDetails"));
@@ -28,6 +29,7 @@ const App = () => {
 					<Route path='/add' element={<AddMovies />} />
 				</Routes>
 			</Suspense>
+			
 		</div>
 	);
 }

@@ -4,6 +4,8 @@ import Input from "../components/Input";
 import Template from './Template'
 import top from '../img/top.png'
 import { Watch } from 'react-loader-spinner';
+import Footer from "../components/Footer";
+
 
 
 const Home = () => {
@@ -74,6 +76,10 @@ const Home = () => {
 				<a href='#'>
 					<img src={top} alt='top' className='top-arrow' />
 				</a>
+			</div>
+			<hr className='mt-14' />
+			<div className='flex justify-center items-center p-5'>
+				<Footer />
 			</div>
 		</main>
 	);

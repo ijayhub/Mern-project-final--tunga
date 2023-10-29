@@ -7,7 +7,9 @@ const Template = ({ movies }) => {
 		<div className='template'>
 			{Array.isArray(movies) &&
 				movies.map((movie) => (
-					<div key={movie.imdbID} className='template-container'>
+					<div
+						key={movie.imdbID}
+						className='template-container slide-in-elliptic-top-fwd'>
 						<div className='mb-6'>
 							<img
 								src={movie.Poster}
@@ -15,7 +17,9 @@ const Template = ({ movies }) => {
 								className='h-[200px] w-full object-cover'
 							/>
 						</div>
-						<h4 className='template-title1 font-bold text-center'>{movie.Title}</h4>
+						<h4 className='template-title1 font-bold text-center'>
+							{movie.Title}
+						</h4>
 						<a href={`/movies/details/${movie.imdbID}`}>
 							<div className='btn-container'>
 								<Button className='btn-template' value='Click for movie info' />

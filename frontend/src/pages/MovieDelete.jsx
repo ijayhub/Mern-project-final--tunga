@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import Button from '../components/Button';
 import { enqueueSnackbar } from 'notistack';
+import Footer from '../components/Footer';
 
 const MovieDelete = () => {
 	const [error, setError] = useState(null);
@@ -54,6 +55,10 @@ const MovieDelete = () => {
 						{error}
 					</div>
 				)}
+			</div>
+			<hr className='mt-14' />
+			<div className='flex justify-center items-center p-5'>
+				<Footer />
 			</div>
 		</div>
 	);

@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { AiOutlinePlusSquare } from 'react-icons/ai';
 import { FiTrash } from 'react-icons/fi';
+import Footer from '../components/Footer';
 
 const MoviesList = () => {
 	const [movieLists, setMovieLists] = useState([]);
@@ -63,7 +64,7 @@ const MoviesList = () => {
 									{' '}
 									Review: <span className='text-black'>{movie.notes}</span>
 								</p>
-                <Link to={`/movies/delete/${movie._id}`}>
+								<Link to={`/movies/delete/${movie._id}`}>
 									<div className='flex justify-end mt-6'>
 										<FiTrash className='text-red-700' />
 									</div>
@@ -71,6 +72,10 @@ const MoviesList = () => {
 							</div>
 						))}
 				</main>
+			</div>
+			<hr className='mt-14' />
+			<div className='flex justify-center items-center p-5'>
+				<Footer />
 			</div>
 		</div>
 	);

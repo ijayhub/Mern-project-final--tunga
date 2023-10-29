@@ -146,7 +146,7 @@ const AddMovies = () => {
 				<a href='#'>
 					<img src={top} alt='top' className='top-arrow' />
 				</a>
-
+				{/* display if there is an error */}
 				{error && (
 					<div className='text-center md:text-2xl font-mono font-bold mt-3'>
 						{error}
