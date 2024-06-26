@@ -1,5 +1,4 @@
 import 'dotenv/config';
-// import { PORT, dbURL} from './'
 import express from 'express';
 import mongoose from 'mongoose';
 import movieRoutes from './routes/movieRoutes.js';

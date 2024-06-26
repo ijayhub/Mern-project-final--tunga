@@ -25,7 +25,7 @@
 
 
 ## About The Project
-Find your favourite movies effortlessly with our user-friendly application. We've curated a wide selection across genres and eras. Whether it's a thrilling mystery or a heartwarming romance, we've got you covered.
+The project enables you to find your favourite movies effortlessly with our user-friendly application. We've curated a wide selection across genres and eras. Whether it's a thrilling mystery or a heartwarming romance, we've got you covered.
 
 **Key features of this project include:**
 ```

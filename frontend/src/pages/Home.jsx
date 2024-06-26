@@ -35,8 +35,7 @@ const Home = () => {
         });
       
     },700)
- 
-  }, [term])
+	}, [term])
   return (
 		<main>
 			<div className='hero'>
